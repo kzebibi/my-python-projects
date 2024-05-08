@@ -19,7 +19,7 @@ if __name__ == '__main__':
     playing = True
     # list for storing the letters guessed by the player
     letterGuessed = ''
-    chances = len(word) + 2
+    chances = len(word) + 5
     flag = 0
     try:
         while (chances != 0) and flag == 0:  # flag is updated when the word is correctly guessed
