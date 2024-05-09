@@ -1,4 +1,4 @@
-# Import the libraries
+# Import modules
 import math
 import random
 
