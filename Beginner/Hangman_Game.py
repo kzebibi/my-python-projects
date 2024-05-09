@@ -1,11 +1,12 @@
 # Hangman Game
+# Import modules
 import random
 from collections import Counter
 
 someWords = '''apple banana mango strawberry orange grape pineapple apricot lemon coconut watermelon cherry papaya berry peach lychee muskmelon'''
 
 someWords = someWords.split(' ')
-# randomly choose a secret word from our "someWords" LIST.
+# Randomly choose a secret word from our "someWords" LIST.
 word = random.choice(someWords)
 
 if __name__ == '__main__':
@@ -17,7 +18,7 @@ if __name__ == '__main__':
     print()
 
     playing = True
-    # list for storing the letters guessed by the player
+    # List for storing the letters guessed by the player
     letterGuessed = ''
     chances = len(word) + 5
     flag = 0
